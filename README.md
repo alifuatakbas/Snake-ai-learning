@@ -28,24 +28,29 @@ git clone https://github.com/alifuatakbas/Snake-ai-learning.git
 cd Snake-ai-learning
 
 3. Set up virtual environment:
-bash
+```
 python -m venv .venv
+
 .venv\Scripts\activate
+```
 
 
   ai/ # AI Implementation
+	
     agent.py # DQN Agent implementation
     memory.py # Experience replay mechanism
     model.py # Neural network architecture
     trainer.py
   
   game/ # Game Environment
+	
     snake.py # Snake game mechanics
     food.py # Food generation logic
     game_state.py
     constants.py
 
   ui/ # Visualization
+	
     menu.py
     game_window.py
 
@@ -71,7 +76,14 @@ python -m venv .venv
 
 ## Usage
 
-Execute the main training script: bash python main.py
-
+Execute the main training script: 
+```
+python main.py
+```
 ## Contact
 - GitHub: [alifuatakbas](https://github.com/alifuatakbas)
+
+
+sadadsada
+
+ 
