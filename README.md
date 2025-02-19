@@ -31,9 +31,11 @@ git clone https://github.com/alifuatakbas/Snake-ai-learning.git
 python -m venv .venv
 
 .venv\Scripts\activate
+
+pip install -r "requirements.txt"
 ```
 
-
+## Structure
   ai/ # AI Implementation
 	
     agent.py # DQN Agent implementation
