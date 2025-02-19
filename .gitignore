@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dll
+
+# Dependencies
+site-packages/
+Lib/
+tensorflow/
+torch/
+
+# Others
+.idea/
+.vs/
+*.h5
+*.pkl
