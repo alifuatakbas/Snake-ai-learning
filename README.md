@@ -86,7 +86,7 @@ python main.py
 
  ### Analysis of Training Progress
 
-The graph demonstrates the learning progression of our DQN agent over 800 episodes:
+The graph demonstrates the learning progression of our DQN agent over 777 episodes:
 
 - **Blue Line (Score)**: Individual episode scores showing high variance
   - Initial scores (0-100 episodes): Low performance with scores around 0-2
