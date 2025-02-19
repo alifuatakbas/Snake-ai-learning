@@ -19,7 +19,7 @@ class DQNAgent:
         # Öğrenme parametreleri
         self.gamma = 0.99  # Gelecek ödüllerin değer kaybı oranı
         self.epsilon = 1.0  # Keşif oranı
-        self.epsilon_min = 0.0 # Minimum keşif oranı
+        self.epsilon_min = 0.01 # Minimum keşif oranı
         self.epsilon_decay = 0.99  # Keşif oranı azalma katsayısı
         self.batch_size = 64  # Eğitim için örnek sayısı
         self.episode_count = 0
