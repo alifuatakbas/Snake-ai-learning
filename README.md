@@ -23,8 +23,9 @@ This project implements a Deep Q-Network (DQN) to train an AI agent to play Snak
 
 ## Installation
 1. Clone the repository:
+```
 git clone https://github.com/alifuatakbas/Snake-ai-learning.git
-
+```
 3. Set up virtual environment:
 ```
 python -m venv .venv
