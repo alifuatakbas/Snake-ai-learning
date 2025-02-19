@@ -80,10 +80,28 @@ Execute the main training script:
 ```
 python main.py
 ```
-## Contact
-- GitHub: [alifuatakbas](https://github.com/alifuatakbas)
 
+## Training Results
+ ![WhatsApp Görsel 2025-02-19 saat 04 24 39_a1672c0e](https://github.com/user-attachments/assets/ae7fc071-648b-4936-9c04-493214bc4aef)
 
-sadadsada
+ ### Analysis of Training Progress
 
- 
+The graph demonstrates the learning progression of our DQN agent over 800 episodes:
+
+- **Blue Line (Score)**: Individual episode scores showing high variance
+  - Initial scores (0-100 episodes): Low performance with scores around 0-2
+  - Mid-training (200-400 episodes): Increasing volatility with occasional high scores
+  - Late training (400+ episodes): Consistent high peaks reaching 20-25 points
+
+- **Red Line (Mean Score)**: Moving average showing overall learning trend
+  - Steady improvement from episodes 0 to 400
+  - Stabilization around score 10 after episode 500
+  - Final convergence at approximately score 10-11
+
+This training pattern is characteristic of DQN learning:
+1. Initial exploration phase with low scores
+2. Rapid improvement during primary learning phase
+3. Convergence to stable performance in later episodes
+
+The variance in scores (blue line) indicates the agent still explores different strategies while maintaining a stable average performance, demonstrating successful learning without overfitting.
+
